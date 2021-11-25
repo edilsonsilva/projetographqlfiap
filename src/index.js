@@ -4,7 +4,7 @@ const {ApolloServer} = require("apollo-server");
 const typeDefs = require("./typeDefs");
 const resolvers = require("./resolvers")
 
-const dburl = "mongodb+srv://edilson:Alunos123@clustercliente.2d5la.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const dburl = "mongodb+srv://";
 const opt = {
     useNewUrlParser:true,
     useUnifiedTopology:true,
